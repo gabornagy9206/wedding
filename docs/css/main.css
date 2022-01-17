@@ -148,6 +148,7 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
+  font-family: 'Lora', serif;
 }
 h1.lg-heading,
 h2.lg-heading,
@@ -272,7 +273,7 @@ main#home h1 {
   align-items: center;
   margin-top: 1rem;
 }
-.boxes div {
+.boxes h2 {
   font-size: 2rem;
   text-align: center;
   border: 3px #fff solid;
@@ -375,6 +376,10 @@ main#home h1 {
 
   .boxes {
     flex-direction: column;
+  }
+
+  .boxes h2 {
+    font-size: 1.2rem;
   }
 
   ul.menu-nav,
