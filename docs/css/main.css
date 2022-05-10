@@ -328,8 +328,14 @@ main#home h1 {
 }
 
 .white-box > h2 {
+  font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
+}
+
+.white-box.program > p {
+  padding-left: 30px;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 1171px) {
@@ -350,6 +356,11 @@ main#home h1 {
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .white-box.program > p {
+    padding-left: 10px;
+    font-size: 1.4rem;
   }
 
   .boxes {
@@ -379,6 +390,11 @@ main#home h1 {
   }
 
   .boxes h2 {
+    font-size: 1.2rem;
+  }
+
+  .white-box.program > p {
+    padding-left: 10px;
     font-size: 1.2rem;
   }
 
